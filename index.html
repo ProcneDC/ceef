@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ceef quiz</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="quizzer.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid cuerpo">
+      <header>
+        <div class="title">
+          <h1>Memorizate esta</h1>
+          <h2>¿Sabés tanto como creías?</h2>
+        </div>
+        <div class="countdown"><span class="time_left">12s</span></div>
+        <div class="points"><span class="points">0 points</span></div>
+      </header>
+      <div class="start">
+        <div class="card">
+          <p>¿Lista/o para comenzar?</p>
+          <button class="start">Dale</button>
+        </div>
+      </div>
+      <div class="play">
+        <div class="questions"></div>
+      </div>
+      <div class="finish card">
+        <p class="times_up">¡Se acabó el tiempo!</p>
+        <p>Has obtenido</p>
+        <p class="final_points">8 puntos</p>
+        <div class="play_again">
+          <button>Volver a jugar</button>
+        </div>
+      </div>
+    </div>
+    <footer class="container-fluid cuerpo">
+    <p>Última actualización: Agosto 2019</p> 
+    <p>Sugerencias: procne@riseup.net // Daniela</p>
+    <p>Contenido creado para el curso de musculación del <a href="http://ceef.net/" target="_blank">Centro Europeo de Educación Física</a> </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-2.2.0.min.js"
+    integrity="sha256-ihAoc6M/JPfrIiIeayPE9xjin4UWjsx2mjW/rtmxLM4="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="quizzer.js"></script>
+  </body>
+</html>
