@@ -238,7 +238,7 @@ div.start .card p, .question.card span.question {
   }
   
   div.start .card p{
-    font-size: 20px;
+    font-size: 20px !important;
   }
 
   header h1 {
